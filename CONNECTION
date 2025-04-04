@@ -1,0 +1,59 @@
+ARDUINO UNO1
+
+[BH1750 Light Sensor]
+VCC  → 5V
+GND  → GND
+SDA  → A4
+SCL  → A5
+
+[Servo 1]
+Signal → D9
+VCC    → 5V
+GND    → GND
+
+[Servo 2]
+Signal → D8
+VCC    → 5V
+GND    → GND
+
+[Potentiometer 1]
+Left  → 5V
+Middle → A0
+Right → GND
+
+[Potentiometer 2]
+Left  → 5V
+Middle → A1
+Right → GND
+
+[Relay Module]
+IN    → D7
+VCC   → 5V
+GND   → GND
+NO/COM → AC device (LED Strip)
+
+-------------------------------------------------
+
+ARDUINO UNO2
+
+[Joystick Module]
+GND   → GND
+VCC   → 5V
+VRx   → A0
+VRy   → A1
+SW    → D2
+
+[Motor Driver to Arduino]
+IN1   → D3
+IN2   → D4
+IN3   → D5
+IN4   → D6
+ENA   → 5V or PWM pin (for speed)
+ENB   → 5V or PWM pin (for speed)
+VCC   → 12V power source (for motors)
+GND   → GND (common with Arduino)
+
+[DC Motors]
+Motor A → OUT1 & OUT2
+Motor B → OUT3 & OUT4
+
